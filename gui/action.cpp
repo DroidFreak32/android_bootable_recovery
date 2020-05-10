@@ -233,8 +233,6 @@ GUIAction::GUIAction(xml_node<>* node)
 		ADD_ACTION(flashimage);
 		ADD_ACTION(twcmd);
 		ADD_ACTION(setbootslot);
-		ADD_ACTION(installapp);
-		ADD_ACTION(uninstalltwrpsystemapp);
 		ADD_ACTION(repackimage);
 		ADD_ACTION(fixabrecoverybootloop);
 	}
